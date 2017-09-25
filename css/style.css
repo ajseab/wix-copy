@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400");
+/* line 3, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 14, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.center {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 22.5%;
+}
+
+/* line 22, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.group::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 28, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+h1 {
+  font-weight: 400;
+  font-size: 320%;
+  letter-spacing: -1px;
+}
+
+/* line 34, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.text {
+  color: #222;
+  letter-spacing: .5px;
+  padding: 18px 0 47px 0;
+}
+
+/* line 40, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+header {
+  background-image: url("https://static.pexels.com/photos/543224/pexels-photo-543224.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* line 47, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav {
+  color: #111;
+  transition: background-color 0.5s;
+}
+
+/* line 50, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav:hover, .main-nav:active {
+  background-color: #fff;
+}
+
+/* line 54, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav h2 {
+  float: left;
+  font-weight: 400;
+  font-size: 250%;
+  margin: 15px 20px 0 44px;
+  text-transform: uppercase;
+}
+
+/* line 61, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+/* line 64, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav ul li {
+  border-top: 4px solid transparent;
+  float: left;
+  padding: 26px 24px 30px 24px;
+  transition: border-top 0.2s;
+}
+
+/* line 69, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav ul li:hover {
+  border-top: 4px solid #3498db;
+  cursor: pointer;
+}
+
+/* line 73, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav ul li a {
+  color: inherit;
+  font-size: 90%;
+  text-decoration: none;
+}
+
+/* line 80, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav .btn-sign-in {
+  border: 1px solid #111;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #111;
+  float: right;
+  margin: 20px 60px 0 0;
+  padding: 10px 27px;
+}
+
+/* line 88, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav .btn-sign-in:hover {
+  background-color: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
+
+/* line 93, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.main-nav .btn-sign-in a {
+  color: inherit;
+  font-size: 90%;
+  text-decoration: none;
+}
+
+/* line 101, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.cta {
+  border: 1px solid #111;
+  border-radius: 25px;
+  color: #111;
+  font-size: 90%;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* line 109, C:/Users/avery/Documents/Web Projects/cool-nav/scss/style.scss */
+.cta:hover, .cta:active {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #fff;
+}
+
+/*# sourceMappingURL=../css/style.map */
